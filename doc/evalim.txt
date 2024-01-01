@@ -1,0 +1,30 @@
+==============================================================================
+
+*evalim* Evaluate Lua in Neovim
+Author: Kraust <http://github.com/kraust>
+Repo:   http://github.com/kraust/evalim.nvim
+
+==============================================================================
+
+CONTENTS                                                    *evalim-contents*
+
+Introduction                                            |evalim-introduction|
+Commands                                                    |evalim-commands|
+Functions                                                  |evalim-functions|
+
+==============================================================================
+INTRODUCTION                                            |evalim-introduction|
+
+The goal of *evalim.nvim* is to provide a way to evaluate lua code inside of
+neovim buffers.
+
+==============================================================================
+COMMANDS                                                    |evalim-commands|
+
+==============================================================================
+FUNCTIONS                                                  |evalim-functions|
+
+evalim#evalim()                                            *evalim#evalim()*
+
+Checks the current buffer for code which can be evaluated by lua and evaluates
+it with its return value being set as a mark.
