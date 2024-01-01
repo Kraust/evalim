@@ -12,3 +12,7 @@ vim.api.nvim_create_autocmd({ "BufEnter", "BufWinEnter", "TextChangedI", "TextCh
   end
 })
 ```
+
+# Demo
+
+https://github.com/Kraust/evalim/assets/6548135/fd7ccce5-3bce-4bdb-bd34-c3a792470a80
